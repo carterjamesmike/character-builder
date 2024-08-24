@@ -1,3 +1,5 @@
 const Species = require('./Species');
+const User = require('./User');
 
-module.exports = { Species };
+
+module.exports = { Species, User };

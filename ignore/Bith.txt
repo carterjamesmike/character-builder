@@ -1,0 +1,102 @@
+    {
+      "name": "Bith",
+      "skinColorOptions": "Green, pink, white, or yellow",
+      "hairColorOptions": "None",
+      "eyeColorOptions": "Black",
+      "distinctions": "Large cranium, acute senses of smell and hearing",
+      "heightAverage": "4'9\"",
+      "heightRollMod": "+2d6\"",
+      "weightAverage": "100 lb.",
+      "weightRollMod": "x(2d4) lb.",
+      "homeworld": "Clak'dor VII",
+      "flavorText": "### Biology and Appearance\r\nBith are craniopods with pale pink, yellow, or green skin, large heads, large lidless eyes, toeless feet, and long fingers. Their thumb and small finger were both fully opposable. The bith's internal systems are different from most humanoids, as the bith have only one lung, and exhale through their skin. Bith also lack a proper nose, instead having highly sensitive olfactory organs hidden in the skin-flaps of their cheeks.\r\n\r\nThe other bith senses are also acute. Bith can sense the tonal qualities of sound as well as other species sensed colors. Their eyes, as big as a Menahuun's, can see microscopic details of nearby objects, but are extremely nearsighted as a result. An interesting side effect of their incredible sensors is the effect of sonic grenades, or screamers, on them. It is described as causing their heads to explode. Similarly, bith have high manual dexterity which helps them manipulate fine tools, though their physical prowess with gross motor skills was only average.\r\n\r\n### Society and Culture\r\nBith are one of the galaxy's most ancient civilizations, with a history going back millions of years. This antiquity garners respect in certain quarters, such as among the Gree, who gave them more respect than other, \"younger\" species. Their society is highly regimented, with everything from mate selection to political leadership controlled by sophisticated computer programs.\r\n\r\n### Names\r\nBith names are quite diverse. Some names look complicated and difficult to pronounce, while others are quite simple. \r\n\r\n**Male Names.** Fedu, Jenkiss, Kabadons, Ph'teumkiass \r\n\r\n**Female Names.** Duhia, F'hubama, R'hothal, Thidus \r\n\r\n**Surnames.** D'intes, Hern, K'sarorn, Nimum, Rumo",
+      "colorScheme": null,
+      "manufacturer": null,
+      "language": "Bith",
+      "traits": [
+        {
+          "name": "Ability Score Increase",
+          "description": "Your Intelligence score increases by 2, and your Dexterity score increases by 1."
+        },
+        {
+          "name": "Age",
+          "description": "Bith reach adulthood in their late teens and live less than a century."
+        },
+        {
+          "name": "Alignment",
+          "description": "Biths' benevolent nature causes them to tend toward the light side, though there are exceptions."
+        },
+        {
+          "name": "Size",
+          "description": "Bith typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium."
+        },
+        {
+          "name": "Speed",
+          "description": "Your base walking speed is 30 feet."
+        },
+        {
+          "name": "Detail Oriented",
+          "description": "You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks within 5 feet."
+        },
+        {
+          "name": "Keen Hearing and Smell",
+          "description": "You have advantage on Wisdom (Perception) checks that involve hearing or smell."
+        },
+        {
+          "name": "Musician",
+          "description": "You are proficient in one musical instrument of your choice."
+        },
+        {
+          "name": "Programmer",
+          "description": "Whenever you make an Intelligence (Technology) check related to computers, you are considered to have expertise in the Technology skill."
+        },
+        {
+          "name": "Sonic Sensitivity",
+          "description": "Your powerful sense of hearing makes you especially vulnerable to deafening sounds. You have disadvantage on saving throws against effects that would deal sonic damage (explained in chapter 9)."
+        },
+        {
+          "name": "Trance",
+          "description": "You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+        },
+        {
+          "name": "Languages",
+          "description": "You can speak, read, and write Galactic Basic, Bith, and one more language of your choice."
+        }
+      ],
+      "traitJson": "[{\"Name\":\"Ability Score Increase\",\"Description\":\"Your Intelligence score increases by 2, and your Dexterity score increases by 1.\"},{\"Name\":\"Age\",\"Description\":\"Bith reach adulthood in their late teens and live less than a century.\"},{\"Name\":\"Alignment\",\"Description\":\"Biths' benevolent nature causes them to tend toward the light side, though there are exceptions.\"},{\"Name\":\"Size\",\"Description\":\"Bith typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.\"},{\"Name\":\"Speed\",\"Description\":\"Your base walking speed is 30 feet.\"},{\"Name\":\"Detail Oriented\",\"Description\":\"You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks within 5 feet.\"},{\"Name\":\"Keen Hearing and Smell\",\"Description\":\"You have advantage on Wisdom (Perception) checks that involve hearing or smell.\"},{\"Name\":\"Musician\",\"Description\":\"You are proficient in one musical instrument of your choice.\"},{\"Name\":\"Programmer\",\"Description\":\"Whenever you make an Intelligence (Technology) check related to computers, you are considered to have expertise in the Technology skill.\"},{\"Name\":\"Sonic Sensitivity\",\"Description\":\"Your powerful sense of hearing makes you especially vulnerable to deafening sounds. You have disadvantage on saving throws against effects that would deal sonic damage (explained in chapter 9).\"},{\"Name\":\"Trance\",\"Description\":\"You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits.\"},{\"Name\":\"Languages\",\"Description\":\"You can speak, read, and write Galactic Basic, Bith, and one more language of your choice.\"}]",
+      "abilitiesIncreased": [
+        [
+          {
+            "abilities": [
+              "Intelligence"
+            ],
+            "abilitiesJson": "[\"Intelligence\"]",
+            "amount": 2
+          },
+          {
+            "abilities": [
+              "Dexterity"
+            ],
+            "abilitiesJson": "[\"Dexterity\"]",
+            "amount": 1
+          }
+        ]
+      ],
+      "abilitiesIncreasedJson": "[[{\"Abilities\":[\"Intelligence\"],\"AbilitiesJson\":\"[\\\"Intelligence\\\"]\",\"Amount\":2},{\"Abilities\":[\"Dexterity\"],\"AbilitiesJson\":\"[\\\"Dexterity\\\"]\",\"Amount\":1}]]",
+      "imageUrls": [
+        "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_bith.png"
+      ],
+      "imageUrlsJson": "[\"https://starwars5ecentral.blob.core.windows.net/site-images/species/species_bith.png\"]",
+      "size": "Medium",
+      "halfHumanTableEntries": {},
+      "halfHumanTableEntriesJson": "{}",
+      "features": [],
+      "contentTypeEnum": 1,
+      "contentType": "Core",
+      "contentSourceEnum": 1,
+      "contentSource": "PHB",
+      "partitionKey": "Core",
+      "rowKey": "Bith",
+      "timestamp": "2023-05-30T20:15:40.4372505+00:00",
+      "eTag": "W/\"datetime'2023-05-30T20%3A15%3A40.4372505Z'\""
+    }

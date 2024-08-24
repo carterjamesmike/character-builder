@@ -1,7 +1,6 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const { Schema, model } = require("mongoose");
 
-const SpeciesSchema = new Schema({
+const speciesSchema = new Schema({
   name: { type: String, required: true },
   skinColorOptions: String,
   hairColorOptions: String,
@@ -16,16 +15,22 @@ const SpeciesSchema = new Schema({
   colorScheme: Schema.Types.Mixed,
   manufacturer: Schema.Types.Mixed,
   language: String,
-  traits: [{
-    name: String,
-    description: String
-  }],
+  traits: [
+    {
+      name: String,
+      description: String,
+    },
+  ],
   traitJson: String,
-  abilitiesIncreased: [[{
-    abilities: [String],
-    abilitiesJson: String,
-    amount: Number
-  }]],
+  abilitiesIncreased: [
+    [
+      {
+        abilities: [String],
+        abilitiesJson: String,
+        amount: Number,
+      },
+    ],
+  ],
   abilitiesIncreasedJson: String,
   imageUrls: [String],
   imageUrlsJson: String,
@@ -40,7 +45,11 @@ const SpeciesSchema = new Schema({
   partitionKey: String,
   rowKey: String,
   timestamp: Date,
-  eTag: String
+  eTag: String,
 });
 
-module.exports = mongoose.model('Species', SpeciesSchema);
+const Species = model("Species", speciesSchema);
+
+module.exports = Species;
+
+// module.exports = mongoose.model('Species', speciesSchema);
