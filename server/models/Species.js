@@ -52,4 +52,3 @@ const Species = model("Species", speciesSchema);
 
 module.exports = Species;
 
-// module.exports = mongoose.model('Species', speciesSchema);
